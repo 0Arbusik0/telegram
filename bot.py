@@ -5,6 +5,9 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters import Command
 from aiogram.exceptions import TelegramBadRequest
 
+TOKEN = "7833556076:AAGZL0AljGtTzq2bXjbtoB0h2SIDGpNlLFU"
+GROUP_CHAT_ID = -1002499181532
+
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
